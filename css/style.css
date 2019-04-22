@@ -21,10 +21,12 @@ header h1 {
   margin-top: 5%;
   margin-right: 10%;
   font-size: 4.5rem;
+  font-weight: 600;
 }
 
 header h2 {
   font-size: 1.5rem;
+  margin-right: 3%;
 }
 
 .header-flex {
@@ -35,4 +37,15 @@ header h2 {
 
 .header-flex--item {
   text-align: right;
+}
+
+nav {
+  margin-right: 2%;
+}
+
+nav ul li {
+  font-family: 'Oswald', sans-serif;
+  display: inline;
+  margin-right: 2%;
+  margin-top: 2%;
 }
