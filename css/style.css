@@ -7,6 +7,10 @@ html {
   text-align: center;
 }
 
+body {
+  text-align: center;
+}
+
 /* Header */
 header {
   background-image: url(../images/header.jpg);
@@ -58,6 +62,7 @@ nav ul {
 }
 
 nav ul li {
+  text-decoration: none;
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   display: inline;
@@ -143,15 +148,21 @@ p.bottom-text {
 
 /* Contact */
 .contact {
-  background-image: url(../images/architecture.jpg);
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
-  height: 100vh;
+  background-color: #E3E8EA;
+  height: auto;
 }
 
 .contact h2 {
   font-size: 4.5rem;
+}
+
+.contact h3 {
+  font-size: 1.115rem;
+}
+
+form {
+  margin: 0 auto;
+  width: 50%;
 }
 
 /* Media Queries */

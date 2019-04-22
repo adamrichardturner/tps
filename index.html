@@ -4,6 +4,8 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/reset.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
   <link rel="stylesheet" href="css/style.css">
   <title>Turner Property Solutions | Surveyors and Project Managers</title>
@@ -22,10 +24,18 @@
       <div class="header-flex--item navbar">
         <nav>
           <ul>
-            <li>Home</li>
-            <li>About</li>
-            <li>Projects</li>
-            <li>Contact</li>
+            <a href="#home">
+              <li>Home</li>
+            </a>
+            <a href="#about">
+              <li>About</li>
+            </a>
+            <a href="#services">
+              <li>Projects</li>
+            </a>
+            <a href="#contact">
+              <li>Contact</li>
+            </a>
           </ul>
         </nav>
       </div>
@@ -48,17 +58,29 @@
     <p>With experience managing projects from small budget to large scale, TPS can offer the full range of Quantity Surveying expertise required to get your project finished on time and within budget.</p>
     <h3>Project Management</h3>
     <i class="fas fa-tasks"></i>
-    <p>Our talented, highly experienced and qualified project managers can bring your design to fruition.</p>
+    <p>Our talented, highly experienced and qualified project managers can bring your design to fruition, working seamlessly with stakeholders and clients.</p>
     <h3>Surveying</h3>
     <i class="fas fa-ruler-combined"></i>
     <p class="bottom-text">Need a house survey completed, a new valuation or a construction health check? Get in touch with TPS.</p>
   </section>
 
-  <section class="contact">
+  <section class="contact" id="contact">
     <h2>Contact Us</h2>
-    <h1>Hallo</h1>
+    <h3>Send us a message with your contact details for a free no-obligation initial consultation.</h3>
+    <form action="https://formspree.io/adamrichardturner@hotmail.com" method="POST" id="form">
+      <div class="form-group has-warning">
+        <input type="name" name="name" class="form-control form-control-warning" id="name" aria-describedby="name" placeholder="Full Name" required>
+      </div>
+      <div class="form-group has-warning">
+        <input type="email" name="email-address" class="form-control form-control-warning" id="email" aria-describedby="emailHelp" placeholder="Email Address" required>
+      </div>
+      <div class="form-group">
+        <textarea class="form-control" rows="5" id="comment" name="comment"></textarea>
+      </div>
+      <button type="submit" id="submit" class="btn btn-dark border-black">Send</button><br><br>
+    </form>
   </section>
-
+  <script src="./js/script.js"></script>
 </body>
 
 </html>
