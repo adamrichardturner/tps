@@ -21,20 +21,21 @@ header h1, h2 {
 }
 
 header img {
-  margin-right: 6%;
+  margin-right: 7%;
   margin-top: 5%;
   width: 185px;
 }
 
 header h2 {
   font-size: 1.25rem;
-  margin-right: 1.5%;
+  margin-right: 3%;
 }
 
 .header-flex {
   display: flex;
   flex-direction: column;
   flex-basis: wrap;
+  width: auto;
 }
 
 .header-flex--item {
@@ -42,7 +43,14 @@ header h2 {
 }
 
 nav {
-  margin-right: -1.5%;
+  position: absolute;
+  right: 45px;
+  padding-top: 10px;
+  letter-spacing: 1.25px;
+}
+
+.navbar {
+  text-align: center;
 }
 
 nav ul {
@@ -90,10 +98,10 @@ nav ul li {
 }
 
 .about p {
-  font-size: 1.75rem;
+  font-size: 1.115rem;
   font-family: 'Heebo', sans-serif;
   text-align: center;
-  padding: 2% 10% 1.25% 10%;
+  padding: 2% 10% 0.5% 10%;
 }
 
 /* Services */
@@ -102,6 +110,7 @@ nav ul li {
 }
 
 .services h2 {
+  text-transform: uppercase;
   padding-top: 3%;
   text-align: center;
   font-size: 4.5rem;
@@ -128,7 +137,11 @@ p.bottom-text {
   height: 530px;
 }
 
-/* Image Scrolls */
+.fa-pound-sign, .fa-tasks, .fa-ruler-combined {
+  font-size: 2.5rem;
+}
+
+/* Contact */
 .contact {
   background-image: url(../images/architecture.jpg);
   background-size: cover;
@@ -139,4 +152,11 @@ p.bottom-text {
 
 .contact h2 {
   font-size: 4.5rem;
+}
+
+/* Media Queries */
+@media only screen and (max-width: 1240px) {
+  header img {
+    margin-top: 2%;
+  }
 }
