@@ -25,8 +25,8 @@ header h1 {
 }
 
 header h2 {
-  font-size: 1.5rem;
-  margin-right: 3%;
+  font-size: 1.25rem;
+  margin-right: 4%;
 }
 
 .header-flex {
@@ -40,12 +40,28 @@ header h2 {
 }
 
 nav {
-  margin-right: 2%;
+  margin-right: 1%;
+}
+
+nav ul {
+  margin-top: 0.5%;
 }
 
 nav ul li {
   font-family: 'Oswald', sans-serif;
+  font-size: 1.5rem;
   display: inline;
   margin-right: 2%;
   margin-top: 2%;
+}
+
+.fa-chevron-circle-down {
+  position: absolute;
+  display: block;
+  margin: 0 auto;
+  font-size: 3.5rem;
+  color: white;
+  top: 90%;
+  left: 50%;
+  transform: translateX(-50%, -50%);
 }
