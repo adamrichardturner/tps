@@ -5,6 +5,7 @@ html {
   font-size: 16px;
 }
 
+/* Header */
 header {
   background-image: url(../images/header.jpg);
   background-size: cover;
@@ -64,4 +65,32 @@ nav ul li {
   top: 90%;
   left: 50%;
   transform: translateX(-50%, -50%);
+}
+
+/* About */
+.about {
+  height: 1000px;
+  background-color: #E3E8EA;
+}
+
+.about img {
+  display: block;
+  position: relative;
+  margin: 0 auto;
+  padding-top: 20px;
+  height: 530px;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 4.5rem;
+  padding-top: 3%;
+  text-align: center;
+}
+
+.about p {
+  font-size: 1.75rem;
+  font-family: 'Heebo', sans-serif;
+  text-align: center;
+  padding-top: 2%;
 }
