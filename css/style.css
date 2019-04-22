@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css?family=Heebo:400,700');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,600');
+
+html {
+  font-size: 16px;
+}
+
+header {
+  background-image: url(../images/header.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+  height: 100vh;
+}
+
+header h1, h2 {
+  font-family: 'Oswald', sans-serif;
+}
+
+header h1 {
+  margin-top: 5%;
+  margin-right: 10%;
+  font-size: 4.5rem;
+}
+
+header h2 {
+  font-size: 1.5rem;
+}
+
+.header-flex {
+  display: flex;
+  flex-direction: column;
+  flex-basis: wrap;
+}
+
+.header-flex--item {
+  text-align: right;
+}
