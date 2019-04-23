@@ -69,13 +69,6 @@ nav ul li {
   color: #10559A;
 }
 
-#shadow-image {
-  top: 35%;
-  display: none;
-  position: absolute;
-  width: 530px;
-}
-
 .fa-chevron-circle-down {
   position: absolute;
   display: block;
@@ -227,18 +220,11 @@ form {
 
 @media only screen and (max-width: 800px) {
   nav {
-    margin: 0 auto;
-    justify-content: center;
-    align-items: center;
-  }
-
-  header {
-    background-image: none;
-    background-color: #E3E8EA;
-  }
-
-  #shadow-image {
-    display: block;
+    top: 72%;
+    left: 50vw;
+    right: 50vw;
+    transform: translate(-50%, -50%);
+    color: white;
   }
 
   .about p, .services p {
