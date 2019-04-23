@@ -5,7 +5,6 @@ html {
   font-size: 16px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
-  overflow: hidden;
 }
 
 body {
@@ -176,6 +175,7 @@ p.bottom-text {
 
 .contact h3 {
   font-size: 1.115rem;
+  padding: 0 40px;
 }
 
 form {
@@ -195,7 +195,7 @@ form {
     right: 50vw;
     transform: translate(-50%, -50%);
     color: white;
-    min-width: 420px;
+    min-width: 50%;
   }
 
   nav h2 {
@@ -253,7 +253,7 @@ form {
   }
 
   nav ul li {
-    font-size: 1.2rem;
+    font-size: 1.125rem;
     color: white;
   }
 
