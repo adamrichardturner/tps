@@ -25,14 +25,14 @@ header h1, h2 {
 }
 
 header img {
-  margin-right: 7%;
-  margin-top: 5%;
+  display: block;
   width: 185px;
+  margin: 0 auto;
 }
 
 header h2 {
   font-size: 1.25rem;
-  margin-right: 3%;
+  text-align: center;
 }
 
 .header-flex {
@@ -42,23 +42,15 @@ header h2 {
   width: auto;
 }
 
-.header-flex--item {
-  text-align: right;
-}
-
 nav {
   position: absolute;
-  right: 45px;
-  padding-top: 10px;
-  letter-spacing: 1.25px;
+  right: 100px;
+  top: 100px;
+  min-width: 500px;
 }
 
-.navbar {
-  text-align: center;
-}
-
-nav ul {
-  margin-top: 0.5%;
+a:hover {
+  text-decoration: none;
 }
 
 nav ul li {
@@ -153,6 +145,8 @@ p.bottom-text {
 }
 
 .contact h2 {
+  text-transform: uppercase;
+  padding-top: 3%;
   font-size: 4.5rem;
 }
 
@@ -166,8 +160,3 @@ form {
 }
 
 /* Media Queries */
-@media only screen and (max-width: 1240px) {
-  header img {
-    margin-top: 2%;
-  }
-}
