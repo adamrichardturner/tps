@@ -223,7 +223,7 @@ form {
 
 @media only screen and (max-width: 934px) {
   nav {
-    top: 72%;
+    top: 20%;
     left: 50vw;
     right: 50vw;
     transform: translate(-50%, -50%);
@@ -246,12 +246,13 @@ form {
 
 @media only screen and (max-width: 800px) {
   nav {
-    top: 62%;
+    top: 20%;
     left: 50vw;
     right: 50vw;
     transform: translate(-50%, -50%);
     color: white;
     display: inline-block;
+    width: 100%;
   }
 
   .about p, .services p {
@@ -260,7 +261,7 @@ form {
 
   nav ul li {
     word-spacing: 10px;
-    font-size: 1.125rem;
+    font-size: 1.5rem;
     color: white;
   }
 
@@ -272,7 +273,7 @@ form {
 
 @media only screen and (max-width: 450px) {
   nav {
-    top: 62%;
+    width: 100%;
     display: inline-block;
   }
 
@@ -281,7 +282,6 @@ form {
   }
 
   nav ul li {
-    font-size: 1rem;
     color: white;
   }
 }
