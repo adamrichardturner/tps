@@ -16,7 +16,6 @@ header {
   background-image: url(../images/header.jpg);
   background-size: cover;
   background-attachment: fixed;
-  background-position: top;
   height: 100vh;
 }
 
