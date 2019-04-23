@@ -245,7 +245,7 @@ form {
 
 @media only screen and (max-width: 800px) {
   nav {
-    top: 72%;
+    top: 62%;
     left: 50vw;
     right: 50vw;
     transform: translate(-50%, -50%);
