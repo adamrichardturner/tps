@@ -69,6 +69,13 @@ nav ul li {
   color: #10559A;
 }
 
+#shadow-image {
+  top: 35%;
+  display: none;
+  position: absolute;
+  width: 530px;
+}
+
 .fa-chevron-circle-down {
   position: absolute;
   display: block;
@@ -187,10 +194,12 @@ form {
 
 /* Media Queries */
 @media only screen and (max-width: 1592px) {
-  nav {
-    top: 50%;
-    right: 0;
-    min-width: 500px;
+  nav h2 {
+    font-size: 1.25rem;
+  }
+
+  nav ul li {
+    font-size: 1.5rem;
   }
 
   .about p, .services p {
@@ -204,7 +213,7 @@ form {
   }
 
   header img {
-    width: 100px;
+    width: 125px;
   }
 
   nav ul li {
@@ -219,11 +228,17 @@ form {
 @media only screen and (max-width: 700px) {
   header {
     background-image: none;
+    background-color: #E3E8EA;
   }
 
   nav {
-    margin: 0 auto;
-    vertical-align: middle;
+    top: 2%;
+    min-width: 500px;
+    right: -11%;
+  }
+
+  #shadow-image {
+    display: block;
   }
 
   .about p, .services p {
