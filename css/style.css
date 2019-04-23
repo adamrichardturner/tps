@@ -72,12 +72,12 @@ nav ul li {
 .fa-chevron-circle-down {
   position: absolute;
   display: block;
-  margin: 0 auto;
-  transform: translateX(-50px, -50px);
+  margin: 0 auto 0 auto;
   font-size: 3.75rem;
   color: white;
   top: 90%;
   left: 50%;
+  transform: translate(-50%, -50%)
 }
 
 /* About */
@@ -143,6 +143,11 @@ nav ul li {
   margin: 0 5% 0 5%;
 }
 
+.services--cards-card p {
+  padding: 10px;
+  margin-bottom: 24px;
+}
+
 p.bottom-text {
   margin-bottom: 20px;
 }
@@ -183,7 +188,7 @@ form {
 /* Media Queries */
 @media only screen and (max-width: 1592px) {
   nav {
-    top: 10px;
+    top: 50%;
     right: 0;
     min-width: 500px;
   }
@@ -196,11 +201,6 @@ form {
 @media only screen and (max-width: 934px) {
   .about p, .services p {
     font-size: 1rem;
-  }
-
-  nav {
-    top: 79%;
-    right: 0px;
   }
 
   header img {
@@ -217,18 +217,17 @@ form {
 }
 
 @media only screen and (max-width: 700px) {
-  .about p, .services p {
-    font-size: 1rem;
+  header {
+    background-image: none;
   }
 
   nav {
-    top: 79%;
-    right: 0px;
     margin: 0 auto;
+    vertical-align: middle;
   }
 
-  header img {
-    width: 100px;
+  .about p, .services p {
+    font-size: 1rem;
   }
 
   nav ul li {
