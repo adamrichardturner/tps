@@ -254,4 +254,9 @@ form {
     font-size: 1rem;
     color: white;
   }
+
+  form {
+    padding: 10px;
+    width: 100%;
+  }
 }
