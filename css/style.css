@@ -11,6 +11,10 @@ body {
   text-align: center;
 }
 
+p {
+  text-align: left;
+}
+
 /* Header */
 header {
   background-image: url(../images/header.jpg);
@@ -23,7 +27,7 @@ header h1, h2 {
 
 header img {
   display: block;
-  width: 185px;
+  width: 200px;
   margin: 0 auto;
 }
 
@@ -51,10 +55,17 @@ nav {
   min-width: auto;
 }
 
-nav a {
-  margin: 0 auto;
+ul {
+  width: 100%;
 }
 
+.navbar {
+  word-spacing: 30px;
+}
+
+/* nav a {
+  margin: 0 auto;
+} */
 a:hover {
   text-decoration: none;
 }
@@ -64,13 +75,7 @@ nav ul li {
   font-family: 'Oswald', sans-serif;
   font-size: 1.5rem;
   display: inline;
-  margin-right: 2%;
-  margin-top: 2%;
   color: #10559A;
-}
-
-ul {
-  margin-bottom: 5rem;
 }
 
 .fa-chevron-circle-down {
@@ -229,10 +234,6 @@ form {
     font-size: 1rem;
   }
 
-  header img {
-    width: 125px;
-  }
-
   nav ul li {
     font-size: 1rem;
     color: white;
@@ -258,6 +259,7 @@ form {
   }
 
   nav ul li {
+    word-spacing: 10px;
     font-size: 1.125rem;
     color: white;
   }
