@@ -5,6 +5,7 @@ html {
   font-size: 16px;
   font-family: 'Heebo', sans-serif;
   text-align: center;
+  overflow: hidden;
 }
 
 body {
@@ -48,7 +49,7 @@ nav {
   position: absolute;
   right: 100px;
   top: 100px;
-  min-width: 500px;
+  min-width: auto;
 }
 
 nav a {
@@ -194,6 +195,7 @@ form {
     right: 50vw;
     transform: translate(-50%, -50%);
     color: white;
+    min-width: 420px;
   }
 
   nav h2 {
@@ -251,7 +253,7 @@ form {
   }
 
   nav ul li {
-    font-size: 1.95rem;
+    font-size: 1.2rem;
     color: white;
   }
 
