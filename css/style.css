@@ -118,6 +118,7 @@ nav ul li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  margin-top: 24px;
 }
 
 .services--cards-card {
@@ -200,7 +201,8 @@ form {
   }
 
   nav ul li {
-    font-size: 1.5rem;
+    font-size: 1rem;
+    color: white;
   }
 
   .about p, .services p {
@@ -227,6 +229,7 @@ form {
 
   nav ul li {
     font-size: 1rem;
+    color: white;
   }
 
   .about h2, .services h2, .contact h2 {
@@ -249,5 +252,6 @@ form {
 
   nav ul li {
     font-size: 1rem;
+    color: white;
   }
 }
