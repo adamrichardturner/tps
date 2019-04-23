@@ -69,6 +69,10 @@ nav ul li {
   color: #10559A;
 }
 
+ul {
+  margin-bottom: 5rem;
+}
+
 .fa-chevron-circle-down {
   position: absolute;
   display: block;
@@ -246,6 +250,7 @@ form {
     right: 50vw;
     transform: translate(-50%, -50%);
     color: white;
+    display: inline-block;
   }
 
   .about p, .services p {
@@ -260,5 +265,21 @@ form {
   form {
     padding: 10px;
     width: 100%;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  nav {
+    top: 62%;
+    display: inline-block;
+  }
+
+  .about p, .services p {
+    font-size: 1rem;
+  }
+
+  nav ul li {
+    font-size: 1rem;
+    color: white;
   }
 }
