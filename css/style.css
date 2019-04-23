@@ -187,6 +187,14 @@ form {
 
 /* Media Queries */
 @media only screen and (max-width: 1592px) {
+  nav {
+    top: 72%;
+    left: 50vw;
+    right: 50vw;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
   nav h2 {
     font-size: 1.25rem;
   }
@@ -201,6 +209,14 @@ form {
 }
 
 @media only screen and (max-width: 934px) {
+  nav {
+    top: 72%;
+    left: 50vw;
+    right: 50vw;
+    transform: translate(-50%, -50%);
+    color: white;
+  }
+
   .about p, .services p {
     font-size: 1rem;
   }
