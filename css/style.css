@@ -60,9 +60,6 @@ ul {
   word-spacing: 30px;
 }
 
-/* nav a {
-  margin: 0 auto;
-} */
 a:hover {
   text-decoration: none;
 }
@@ -217,13 +214,17 @@ form {
 
   nav ul li {
     word-spacing: 10px;
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     color: white;
   }
 
   form {
     padding: 10px;
     width: 100%;
+  }
+
+  .about h2, .services h2, .contact h2 {
+    font-size: 2rem;
   }
 }
 
