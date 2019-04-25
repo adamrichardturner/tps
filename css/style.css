@@ -208,6 +208,10 @@ form {
     width: 100%;
   }
 
+  header h2 {
+    font-size: 4vmin;
+  }
+
   .about p, .services p {
     font-size: 1rem;
   }
@@ -232,6 +236,10 @@ form {
   nav {
     width: 100%;
     display: inline-block;
+  }
+
+  header h2 {
+    font-size: 4vmin;
   }
 
   .about p, .services p {
