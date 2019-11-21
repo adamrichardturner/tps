@@ -19,12 +19,21 @@ p {
 header {
   background-image: url(../images/header.jpg);
   height: 100vh;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 header img {
   display: block;
   width: 200px;
   margin: 0 auto;
+}
+
+/* Full height */
+.parralax {
+  /* Create the parallax scrolling effect */
 }
 
 header h2 {
@@ -241,6 +250,8 @@ form {
   #services p {
     font-size: 16px;
     padding: 15px;
+    text-align: center;
+    margin-bottom: 5px;
   }
 
   #services img {
