@@ -108,7 +108,7 @@ nav ul li {
   font-size: 1vw;
   font-family: 'Heebo', sans-serif;
   text-align: center;
-  padding: 2% 10% 0.5% 10%;
+  padding: 40px 0px;
   margin: 0 auto 30px auto;
 }
 
@@ -229,6 +229,20 @@ form {
 
   .about h2, .services h2, .contact h2 {
     font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #services img {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
+  }
+
+  #about img {
+    width: 100%;
+    max-width: 100%;
+    height: auto !important;
   }
 }
 
